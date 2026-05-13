@@ -1,0 +1,6 @@
+{
+  "code-runner.executorMap": {
+    "csharp": "cd $workspaceRoot && dotnet run"
+  },
+  "code-runner.runInTerminal": true
+}

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LR5.Models.Client">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAAAEABAAAAAAAAEAAAAAAAIAAAAAAAg=</HashCode>
+      <FileName>Models\Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LastName" />
+      <Property Name="Room" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LR5.Models.Room">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <AssociationLine Name="Price" Type="System.Double">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.638" Y="0.131" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAGAAAgAAAAAAAAAAAQAAAAAAAAI=</HashCode>
+      <FileName>Models\Room.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+      <Property Name="Price" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LR5.Services.Hotel">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <AssociationLine Name="clients" Type="System.Collections.Generic.List&lt;T&gt;">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.1" Y="0.258" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="rooms" Type="System.Collections.Generic.List&lt;T&gt;">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.763" Y="0.266" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAABACCAAIAAQAgAAAAAAAgAAACAAAAAAA=</HashCode>
+      <FileName>Services\Hotel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="clients" />
+      <Field Name="rooms" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Bottom" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="System.Double" Collapsed="true">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.263" Collapsed="true" />
+  </Class>
+  <Class Name="LR5.Program">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RoomType">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Enums\RoomType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
