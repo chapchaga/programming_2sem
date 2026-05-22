@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LR6.Models.Toy">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAABAAAAAQAACAAAAAAkAAAAAAAAAA=</HashCode>
+      <FileName>Models\Toy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LR6.Models.RobotToy">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RobotToy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LR6.Models.ConstructorToy">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Models\ConstructorToy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LR6.Models.ElectronicToy">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAABAAAAA=</HashCode>
+      <FileName>Models\ElectronicToy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LR6.Models.PlushToy">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Models\PlushToy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

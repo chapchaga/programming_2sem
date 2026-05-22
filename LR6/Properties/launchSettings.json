@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LR6": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
